@@ -1,0 +1,32 @@
+# ignore hidden directories.
+/.git
+/.vs
+
+# ignore unnecessary directories.
+/build
+
+# GNU global files
+GPATH
+GRTAGS
+GSYMS
+GTAGS
+
+# null file
+NUL
+
+# static lib
+*.lib
+*.lai
+*.la
+*.a
+
+# dynamic lib
+*.dll
+
+# executable
+*.exe
+*.out
+*.app
+
+# monodevelop / xamarin studio env.
+*.userprefs
