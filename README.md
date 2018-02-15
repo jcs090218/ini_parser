@@ -1,5 +1,4 @@
 # ini parser #
-<br/>
 
 All programming languages' .ini/.properties parser. The goal of this 
 project is to serve people who need .ini/.properties parser in any kind of 
@@ -21,5 +20,13 @@ programming language.
 There are something I would like everyone of follow in order to keep 
 project consistent. 
 
--# Core file in corresponding directory. (Should be somewhere under /src folder)
--# Example file in corresponding directory. (Should be somewhere under /test folder)
+* Core file in corresponding directory. (Should be somewhere under /src folder)
+* Example file in corresponding directory. (Should be somewhere under /test folder)
+
+## Current Support Languages ##
+
+* C
+* C++
+* C#
+* Elisp
+* Java
