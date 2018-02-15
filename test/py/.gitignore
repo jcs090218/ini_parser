@@ -1,2 +1,5 @@
 # ignore compiled file.
 *.pyc
+
+# ignore same copy core file.
+ini_parser.py
