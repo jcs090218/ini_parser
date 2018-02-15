@@ -30,3 +30,5 @@ project consistent.
 * C#
 * Elisp
 * Java
+* JavaScript (With nodejs env.)
+* Python
