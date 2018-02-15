@@ -10,6 +10,7 @@
 
 2018-02-15
 * Done c version of ini parser implementation. (ini_parser)
+* Done py version of ini parser implementation. (ini_parser)
 
 2018-02-13
 * Done first version of js ini parser implementation. (ini_parser)
