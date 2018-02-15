@@ -1,0 +1,22 @@
+# ========================================================================
+# $File: Update_Log.txt $
+# $Date: 2018-02-12 02:24:52 $
+# $Revision: $
+# $Creator: Jen-Chieh Shen $
+# $Notice: See LICENSE.txt for modification and distribution information
+#                   Copyright © 2018 by Shen, Jen-Chieh $
+# ========================================================================
+
+
+2018-02-15
+* Done c version of ini parser implementation. (ini_parser)
+
+2018-02-13
+* Done first version of js ini parser implementation. (ini_parser)
+* Done cpp version of ini parser implementation. (ini_parser)
+* Done elisp version of ini parser implementation. (ini_parser)
+* Done java version of ini parser implementation. (ini_parser)
+
+2018-02-12
+* Done cs version of ini parser implementation. (ini_parser)
+* First setup project. (ini_parser)
