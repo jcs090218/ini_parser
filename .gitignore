@@ -1,6 +1,5 @@
 # ignore hidden directories.
 /.git
-/.vs
 
 # ignore unnecessary directories.
 /build
@@ -28,5 +27,53 @@ NUL
 *.out
 *.app
 
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# common ignore type
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tlh
+*.tli
+*.tlog
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Visual Studio 2015 cache/options directory
+/.vs
+
 # monodevelop / xamarin studio env.
 *.userprefs
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio 6 build log
+*.plg
+
+# Visual Studio 6 workspace options file
+*.opt
