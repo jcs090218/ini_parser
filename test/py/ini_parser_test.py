@@ -4,40 +4,25 @@
 # $Revision: $
 # $Creator: Jen-Chieh Shen $
 # $Notice: See LICENSE.txt for modification and distribution information
-#                   Copyright © 2018 by Shen, Jen-Chieh $
+#                   Copyright (c) 2018 by Shen, Jen-Chieh $
 # ========================================================================
 
+from ini_parser import INI_Parser
 
-class INI_Parser_Test(object):
-    """Test if the `INI_Parser' working correctly.
-    """
+def main():
 
-    #*********************************************#
-    #*             Public Variables              *#
-    #*********************************************#
+    filePath = "../test.ini"
 
-    #*********************************************#
-    #              Private Variables             *#
-    #*********************************************#
+    # create parser.
+    parser = INI_Parser()
 
-    #*********************************************#
-    #              Protected Variables           *#
-    #*********************************************#
+    # read the target ini file.
+    parser.readINIFile(filePath)
 
-    #*********************************************#
-    #                Constructor                 *#
-    #*********************************************#
-    def __init__(self):
-        """Constructor."""
+    # print out some sample.
+    print("Version: " + parser.getProperty("VERSION"))
+    print("Name: " + parser.getProperty("NAME"))
+    print("Age: " + parser.getProperty("AGE"))
+    print("Email: " + parser.getProperty("EMAIL"))
 
-    #====================
-    # Public Methods
-
-    #====================
-    # Protected Methods
-
-    #====================
-    # Private Methods
-
-    #====================
-    # setter / getter
+main()
