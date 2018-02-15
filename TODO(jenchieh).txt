@@ -1,0 +1,13 @@
+# ========================================================================
+# $File: TODO(jenchieh).txt $
+# $Date: 2018-02-12 02:25:34 $
+# $Revision: $
+# $Creator: Jen-Chieh Shen $
+# $Notice: See LICENSE.txt for modification and distribution information
+#                   Copyright © 2018 by Shen, Jen-Chieh $
+# ========================================================================
+
+
+//-- General --//
+* py version of ini parser.
+* vb version of ini parser.
