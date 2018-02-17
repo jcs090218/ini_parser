@@ -9,6 +9,5 @@
 
 
 //-- General --//
-* py version of ini parser.
 * vb version of ini parser.
 * js only work in NodeJS environment? (wth)
