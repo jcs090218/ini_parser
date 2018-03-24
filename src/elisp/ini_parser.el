@@ -42,12 +42,38 @@ FILEPATH : .ini file to parse."
         ;; Check empty value.
         (when (and (not (string= tmp-keyword ""))
                    (not (equal tmp-value nil)))
-          (add-to-list 'tmp-ini-list tmp-keyword)
-          (add-to-list 'tmp-ini-list tmp-value)))
+          (let ((tmp-list '()))
+            (add-to-list 'tmp-list tmp-keyword)
+            (setq tmp-ini-list (append tmp-ini-list tmp-list)))
+          (let ((tmp-list '()))
+            (add-to-list 'tmp-list tmp-value)
+            (setq tmp-ini-list (append tmp-ini-list tmp-list)))))
       (setq count (1+ count)))
-
-    ;; Reverse list once.
-    (setq tmp-ini-list (reverse tmp-ini-list))
 
     ;; return list.
     tmp-ini-list))
+
+(defun jcs-get-properties (ini-list in-key)
+  "Get properties data.  Search by key and returns value.
+INI-LIST : ini list.  Please use this with/after using `jcs-parse-ini' function.
+IN-KEY : key to search for value."
+  (let ((tmp-index 0)
+        (tmp-key "")
+        (tmp-value "")
+        (returns-value ""))
+
+    (while (< tmp-index (length ini-list))
+      ;; Get the key and data value.
+      (setq tmp-key (nth tmp-index ini-list))
+      (setq tmp-value (nth (1+ tmp-index) ini-list))
+
+      ;; Find the match.
+      (when (string= tmp-key in-key)
+        ;; return data value.
+        (setq returns-value tmp-value))
+
+      ;; Search for next key word.
+      (setq tmp-index (+ tmp-index 2)))
+
+    ;; Found nothing, return empty string.
+    returns-value))
