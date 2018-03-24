@@ -8,6 +8,10 @@
 # ========================================================================
 
 
+2018-03-24
+* Modefied test using get properties function. (ini_parser - elisp)
+* Support get properties by using keyword search. (ini_parser - elisp)
+
 2018-02-15
 * Done c version of ini parser implementation. (ini_parser)
 * Done py version of ini parser implementation. (ini_parser)
