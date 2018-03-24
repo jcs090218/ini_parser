@@ -16,10 +16,10 @@
   (let ((ini-data '()))
     (setq ini-data (jcs-parse-ini "../test.ini"))
 
-    (message "Version: %s" (nth 1 ini-data))
-    (message "Name: %s" (nth 3 ini-data))
-    (message "Age: %s" (nth 5 ini-data))
-    (message "Email: %s" (nth 7 ini-data))))
+    (message "Version: %s" (jcs-get-properties ini-data "VERSION"))
+    (message "Name: %s" (jcs-get-properties ini-data "NAME"))
+    (message "Age: %s" (jcs-get-properties ini-data "AGE"))
+    (message "Email: %s" (jcs-get-properties ini-data "EMAIL"))))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Output:
