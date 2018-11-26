@@ -1,15 +1,20 @@
 # ini parser #
 
+[![Build Status](https://travis-ci.com/jcs090218/ini_parser.svg?branch=master)](https://travis-ci.com/jcs090218/ini_parser)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 All programming languages' .ini/.properties parser. The goal of this 
 project is to serve people who need .ini/.properties parser in any kind of 
 programming languages. Make easy and fast to implement ini parser to their 
 own use/project. 
 <br/><br/>
 
+
 ## How to use it? ##
 Simply goto /src/your_target_programming_language/ and copy the file to
 your project and it should work. The example can be find under 
 /test/your_target_programming_language/ folder.
+
 
 ## Contribution ##
 If you would like to contribute to this project anyone is welcome, just make 
@@ -23,8 +28,8 @@ project consistent.
 * Core file in corresponding directory. (Should be somewhere under /src folder)
 * Example file in corresponding directory. (Should be somewhere under /test folder)
 
-## Current Support Languages ##
 
+## Current Support Languages ##
 * C
 * C++
 * C#
