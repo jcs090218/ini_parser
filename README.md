@@ -1,7 +1,8 @@
-# ini parser #
-
 [![Build Status](https://travis-ci.com/jcs090218/ini_parser.svg?branch=master)](https://travis-ci.com/jcs090218/ini_parser)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+# ini parser #
 
 All programming languages' .ini/.properties parser. The goal of this 
 project is to serve people who need .ini/.properties parser in any kind of 
